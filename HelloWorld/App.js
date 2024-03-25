@@ -1,8 +1,7 @@
-import { View } from "react-native";
-
-import LoginPage from "./Components/LoginPage";
+import React from "react";
+import Navigation from "./Components/Navigation";
 
 const App = () => {
-  return <LoginPage />;
+  return <Navigation />;
 };
 export default App;

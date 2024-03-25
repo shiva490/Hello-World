@@ -20,7 +20,7 @@ function LoginPage() {
   const handleLogin = () => {
     // Handle login logic here
     console.log("Logging in with email:", email, "and password:", password);
-    //navigation.navigate("Next");
+    navigation.navigate("Next");
   };
 
   const handleBackGroundChange = () => {
